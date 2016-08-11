@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cc.tabmiddle.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="
+作者：StephenLee
+链接：https://www.zhihu.com/question/33636939/answer/57171337
+利用此接口可以对未捕获的异常善后；使用参见：Android使用UncaughtExceptionHandler捕获全局异常
+4、Resources类中的getIdentifier(name, defType, defPackage)方法，根据资源名称获取其ID，做UI时经常用到；
+5、View中的isShown()方法，以前都是用view.getVisibility() == View.VISIBLE来判断的【android】view.isShown ()的用法）
+
+6、Arrays类中的一系列关于数组操作的工具方法：binarySearch()，asList()，equals()，sort()，toString()，copyOfRange()等；Collections类中的一系列关于集合操作的工具方法：sort()，reverse()等；
+
+7、android.text.format.Formatter类中formatFileSize(Context, long)方法，用来格式化文件Size（B → KB → MB → GB）；
+
+8、android.media.ThumbnailUtils类，用来获取媒体（图片、视频）缩略图；
+
+9、String类中的format(String, Object...)方法，用来格式化strings.xml中的字符串（多谢 @droider An 提示：Context类中getString(int, Object... )方法用起来更加方便）；
+
+10、View类中的三个方法：callOnClick()，performClick()，performLongClick()，用于触发View的点击事件；
+
+11、TextUtils类中的isEmpty(CharSequence)方法，判断字符串是否为null或作者：StephenLee
+链接：https://www.zhihu.com/question/33636939/answer/57171337
+利用此接口可以对未捕获的异常善后；使用参见：Android使用UncaughtExceptionHandler捕获全局异常
+4、Resources类中的getIdentifier(name, defType, defPackage)方法，根据资源名称获取其ID，做UI时经常用到；
+5、View中的isShown()方法，以前都是用view.getVisibility() == View.VISIBLE来判断的【android】view.isShown ()的用法）
+
+6、Arrays类中的一系列关于数组操作的工具方法：binarySearch()，asList()，equals()，sort()，toString()，copyOfRange()等；Collections类中的一系列关于集合操作的工具方法：sort()，reverse()等；
+
+7、android.text.format.Formatter类中formatFileSize(Context, long)方法，用来格式化文件Size（B → KB → MB → GB）；
+
+8、android.media.ThumbnailUtils类，用来获取媒体（图片、视频）缩略图；
+
+9、String类中的format(String, Object...)方法，用来格式化strings.xml中的字符串（多谢 @droider An 提示：Context类中getString(int, Object... )方法用起来更加方便）；
+
+10、View类中的三个方法：callOnClick()，performClick()，performLongClick()，用于触发View的点击事件；
+
+11、TextUtils类中的isEmpty(CharSequence)方法，判断字符串是否为null或" />
+
+</FrameLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@mipmap/main_tab"
+    android:orientation="horizontal">
+
+    <RadioGroup
+        android:id="@+id/main_tabBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_news"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="32dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_news"
+            android:gravity="center"
+            android:text="资讯"
+            android:textColor="@color/selector_textcolor"
+            android:textSize="12sp" />
+
+
+        <RadioButton
+            android:id="@+id/main_home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/selector_home"
+            android:gravity="center"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/main_my"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="32dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/selector_my"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@color/selector_textcolor"
+            android:textSize="12sp" />
+
+    </RadioGroup>
+</LinearLayout>
